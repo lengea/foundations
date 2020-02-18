@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hello!</title>
+  <style>
+  body{
+  text-align: center;
+  color: black;
+  background-color: tomato;
+  }
+  h1{
+  	color: white;
+  }
+</style>
+  </head>
+  <body>
+    
+    <h1>
+      Welcome New User!
+    </h1>
+
+    <img src="https://sociology.uconn.edu/wp-content/uploads/sites/2172/2019/06/WELCOME-ST-IVES.jpg" alt="Welcome Sign" style="width:550px;height:150px;">
+    <p>
+      To get started, please fill in the informations.
+    </p>
+    
+  <form action="/cgi-bin/first-cgi.py" method="post">
+  <label for="name">What is your name?</label>
+  <input type="text" id="name" name="name"><br><br>
+  <label for="age">What is your age?</label>
+  <input type="number" id="age" name="age"><br><br>
+  <input type="submit" value="Submit">
+</form>
+    
+  </body>
+  
+  </html>
+
